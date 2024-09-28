@@ -1,9 +1,9 @@
 import React from 'react'
-import { FaAngleDown } from "react-icons/fa";
-const Navbar = () => {
+
+const Navbarlogout = () => {
     return (
         <div>
-            <section className='flex justify-between  bg-white rounded-[8px] py-[5px] px-[10px]   sm:px-[15px]  lg:px-[20px]'>
+            <section className='flex justify-between  bg-white rounded-[8px] py-[8px] px-[10px]   sm:px-[15px]  lg:px-[20px]'>
                 <div className='leading-5 sm:leading-7 '>
                     <div>
                         <p className='font-bold sm:text-[20px] '>ANGINAT</p>
@@ -21,15 +21,13 @@ const Navbar = () => {
                 </div>
 
 
-                <div className=' flex gap-[3px] items-center p-2 '>
-                         <div> <p className='text-[16px]  sm:text-[20px]'>Calculators</p></div>
-                         <div>
-                             <FaAngleDown />
-                         </div>
+                <div className=' flex gap-[3px] items-center px-[10px] rounded-[5px] border '>
+                         <div> <p className='text-[16px]  sm:text-[20px]'>Logout</p></div>
+                         
                 </div>
             </section>
         </div>
     )
 }
 
-export default Navbar
+export default Navbarlogout

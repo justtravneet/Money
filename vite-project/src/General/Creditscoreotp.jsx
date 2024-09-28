@@ -1,10 +1,10 @@
 import React from 'react'
 import { PiShieldCheckThin   } from "react-icons/pi";
 import { HiOutlinePhoneXMark } from "react-icons/hi2";
-import Phoneauthentication from './Phoneauthentication';
+
 import Otpauthentication from './Otpauthentication';
 
-const Creditscore = () => {
+const Creditscoreotp = () => {
     return (
 
         <div>
@@ -38,8 +38,8 @@ const Creditscore = () => {
 
 
                     <div>
-                        <Phoneauthentication />
-                        {/* <Otpauthentication /> */}
+                        
+                        <Otpauthentication />
                     </div>
 
                 </div>
@@ -54,4 +54,4 @@ const Creditscore = () => {
     )
 }
 
-export default Creditscore 
+export default Creditscoreotp 
