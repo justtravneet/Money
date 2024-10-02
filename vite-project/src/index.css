@@ -22,6 +22,10 @@ body{
   background-color: #750050;
 }
 
+.button-2{
+  background-color: #234834;
+}
+
 .App {
   font-family: Arial, sans-serif;
   display: flex;
@@ -47,4 +51,8 @@ button {
 .otpinput{
   outline: none;
   background-color: transparent;
+}
+.checkboxs{
+  background-color: #234834;
+  border: 5px solid #234834 ;
 }
